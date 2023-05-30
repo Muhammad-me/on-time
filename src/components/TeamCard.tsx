@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function TeamCard() {
   return (
     <div>
-      <div className="w-[280px] lg:w-96">
+      <div className="w-[250px] md:w-80">
         <Image src={team} alt={""} />
         <h1 className="text-3xl md:text-4xl leading-[42px] font-medium mt-6">
           Name Surname

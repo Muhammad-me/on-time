@@ -10,7 +10,7 @@ export default function Homes() {
       <div className="back text-white">
         <Navbar />
         <div className="container mx-auto">
-          <div className="flex justify-center items-center h-[100%] mt-60">
+          <div className="flex justify-center items-center px-10 py-28 lg:py-60">
             <div>
               <span className="text-2xl uppercase">Team Of</span>
 

@@ -3,7 +3,6 @@ import ArrowUp from "@/assets/icon/ArrowUp";
 import { Accordion, Tabs } from "@mantine/core";
 import Image from "next/image";
 import Link from "next/link";
-import cont from ".././assets/Mask group (10).png";
 import img1 from ".././assets/Mask group (4).png";
 import sl1 from ".././assets/Mask group (6).png";
 import sl2 from ".././assets/Mask group (7).png";
@@ -18,7 +17,7 @@ export default function Section() {
     <>
       <div
         id="pg1"
-        className="container px-10 mx-auto justify-center py-28 lg:py-60"
+        className="container px-16 mx-auto justify-center py-28 lg:py-60"
       >
         <div className="mt-5 w-full">
           <div className="flex justify-center">
@@ -29,12 +28,12 @@ export default function Section() {
               </h1>
             </div>
           </div>
-          <div className="grid grid-rows-2 grid-cols-1 md:grid-cols-3 md:grid-rows-1 justify-between mt-16 gap-6 md:gap-16 px-5 md:px-0">
+          <div className="grid grid-rows-2 grid-cols-1 xl:grid-cols-3 xl:grid-rows-1 justify-between mt-16 gap-6 md:gap-16 px-5 md:px-0">
             <div className="hidden md:flex">
-              <Image src={qual} alt="qual" width={150} height={130} />
+              <Image src={qual} alt="qual" width={200} height={100} />
             </div>
-            <div className="">
-              <p className="text-base md:text-base md:text-xl font-normal">
+            <div>
+              <p className="text-base md:text-xl font-normal">
                 On Time Express was founded in 2013 by an immigrant who began
                 his logistics career as an over-the-road company truck driver.
                 Over the years with the help of our experienced staff we have
@@ -42,7 +41,7 @@ export default function Section() {
                 logistics companies, servicing 48 states in US.
               </p>
             </div>
-            <div className="">
+            <div>
               <p className="text-base md:text-xl font-normal">
                 What began as a small family carrier company has now expanded
                 into a multi-servicing brokerage firm equipped with 50 dedicated
@@ -58,9 +57,9 @@ export default function Section() {
       <div className="px-5 sm:px-10">
         <Image src={img1} alt={""} className="w-full" />
       </div>
-      <div className="container mx-auto mt-56 px-5">
+      <div className="container mx-auto mt-56 px-16">
         <div>
-          <div className="flex justify-around md:mx-12 w-full ">
+          <div className="flex justify-around md:mx-12">
             <div>
               <h1 className="uppercase text-5xl sm:text-[100px] font-normal sm:leading-[84px] text-[#D63E0E] mt-3">
                 <i>meet </i> <br /> the <br /> team
@@ -73,7 +72,7 @@ export default function Section() {
             </div>
             <div className="w-1/3 hidden md:block"></div>
           </div>
-          <div className="flex flex-wrap justify-around mt-20 gap-3 md:gap-10">
+          <div className="flex flex-wrap justify-center gap-4 mt-20 lg:gap-10">
             <TeamCard />
             <TeamCard />
             <TeamCard />
@@ -94,8 +93,8 @@ export default function Section() {
               </h1>
             </div>
           </div>
-          <div className="grid grid-rows-2 grid-cols-1 md:grid-cols-3 md:grid-rows-1 justify-between mt-16 gap-6 md:gap-16 px-5 md:px-0">
-            <div>
+          <div className="flex flex-wrap justify-center mt-16 gap-6 md:gap-16 px-5 md:px-0">
+            <div className="w-1/3">
               <p className="text-base md:text-xl font-normal">
                 On Time Express provides exceptional customer service by
                 creating value beyond the traditional ways of freight forwarding
@@ -105,7 +104,7 @@ export default function Section() {
                 direct deliveries, nationwide.
               </p>
             </div>
-            <div>
+            <div className="w-1/3">
               <p className="text-base md:text-xl font-normal">
                 Our expansive logistic services, combined with our focus on
                 organization using our integrated IT platform equips us with the
@@ -119,9 +118,9 @@ export default function Section() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto hidden lg:flex items-center py-28 lg:py-60 px-5">
+      <div className="container mx-auto hidden lg:flex items-center px-16">
         <div>
-          <div className="hidden 2xl:block">
+          <div className="hidden xl:block">
             <Tabs defaultValue={"full"}>
               <Tabs.List>
                 <Tabs.Tab value="full">
@@ -323,7 +322,7 @@ export default function Section() {
           </div>
         </div>
       </div>
-      <div id="pg3" className="container mx-auto px-5">
+      <div id="pg3" className="container mx-auto px-16">
         <div>
           <div className="flex justify-between w-full">
             <div>
@@ -346,7 +345,7 @@ export default function Section() {
           </div>
         </div>
       </div>
-      <div id="pg4" className="container mx-auto py-28 lg:py-60 px-5 mt-56">
+      <div id="pg4" className="container mx-auto py-28 lg:py-60 px-16 mt-56">
         <div>
           <div className="flex justify-center">
             <div>
